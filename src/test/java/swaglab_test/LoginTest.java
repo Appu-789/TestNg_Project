@@ -11,12 +11,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import swaglab_pages.LoginPage;
 
 
-
+@Listeners(Listener.class)
 public class LoginTest extends BaseClass{
 	
 	
@@ -25,12 +26,11 @@ public class LoginTest extends BaseClass{
 		
 		LoginPage lp = new LoginPage();
 		lp.LoginFunction("standard_user", "secret_sauce");
-	
+		
+		
+		
 		WebElement ProductTitle = driver.findElement(By.className("title"));
 		Assert.assertEquals(ProductTitle.getText(), "Products");
-		
-		
-	
 		
 	}
 
@@ -52,7 +52,7 @@ public class LoginTest extends BaseClass{
 		lp.LoginFunction("locked_out_user", "secret_sauce");
 		
 		WebElement ErrorMsg = driver.findElement(By.xpath("//h3[@data-test='error']"));
-		Assert.assertEquals(ErrorMsg.getText(), "Epic sadface: Sorry, this user has been locked out.");
+		Assert.assertEquals(ErrorMsg.getText(), "Epic sadface: Username and password do not match any user in this service");
 	}
 
 	@Test 

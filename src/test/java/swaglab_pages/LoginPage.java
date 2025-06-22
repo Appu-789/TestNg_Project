@@ -43,7 +43,7 @@ public class LoginPage {
 			WebElement LoginBtn = driver.findElement(By.xpath("//input[@id='login-button']"));
 			
 			UserName.sendKeys("standard_user");
-			Password.sendKeys("secret_test");
+			Password.sendKeys("secret_sauce");
 			LoginBtn.click();
 		   
 		   

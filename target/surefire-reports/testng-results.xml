@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-22T10:40:38Z" name="Simplilearn" finished-at="2025-06-22T10:41:09Z" duration-ms="31896">
+  <suite started-at="2025-07-04T19:38:59Z" name="Simplilearn" finished-at="2025-07-04T19:39:35Z" duration-ms="35797">
     <groups>
     </groups>
-    <test started-at="2025-06-22T10:40:38Z" name="SmokeTest" finished-at="2025-06-22T10:41:09Z" duration-ms="31896">
+    <test started-at="2025-07-04T19:38:59Z" name="SmokeTest" finished-at="2025-07-04T19:39:35Z" duration-ms="35797">
       <class name="swaglab_test.LoginTest">
-        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:38Z" name="SetUpExcel" finished-at="2025-06-22T10:40:38Z" duration-ms="494" status="PASS">
+        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:38:59Z" name="SetUpExcel" finished-at="2025-07-04T19:38:59Z" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpExcel -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:38Z" name="SetUp" finished-at="2025-06-22T10:40:40Z" duration-ms="2426" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:38:59Z" name="SetUp" finished-at="2025-07-04T19:39:01Z" duration-ms="2175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LockedUserLoginFailureTest()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:40Z" name="LockedUserLoginFailureTest" finished-at="2025-06-22T10:40:46Z" duration-ms="5331" status="FAIL">
+        <test-method signature="LockedUserLoginFailureTest()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:01Z" name="LockedUserLoginFailureTest" finished-at="2025-07-04T19:39:07Z" duration-ms="5692" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f071e85ffc06846dafe23ffc905daa8, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9173/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f071e85ffc06846dafe23ffc905daa8]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff640bb724c437d5acdae62fe3550a57, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff640bb724c437d5acdae62fe3550a57]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f071e85ffc06846dafe23ffc905daa8, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9173/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f071e85ffc06846dafe23ffc905daa8
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff640bb724c437d5acdae62fe3550a57, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff640bb724c437d5acdae62fe3550a57
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -47,8 +47,7 @@ at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
@@ -90,37 +89,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LockedUserLoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:46Z" name="TearDown" finished-at="2025-06-22T10:40:46Z" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:07Z" name="TearDown" finished-at="2025-07-04T19:39:08Z" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:46Z" name="SetUp" finished-at="2025-06-22T10:40:48Z" duration-ms="1497" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:08Z" name="SetUp" finished-at="2025-07-04T19:39:09Z" duration-ms="1491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginFailureTestFromExcel()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:48Z" name="LoginFailureTestFromExcel" finished-at="2025-06-22T10:40:53Z" duration-ms="5313" status="FAIL">
+        <test-method signature="LoginFailureTestFromExcel()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:09Z" name="LoginFailureTestFromExcel" finished-at="2025-07-04T19:39:15Z" duration-ms="5507" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa9cb766381d9a740919278c5242f5, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9202/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa9cb766381d9a740919278c5242f5]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1632b9e74bb4f565cc16e46eb797d692, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1632b9e74bb4f565cc16e46eb797d692]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa9cb766381d9a740919278c5242f5, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9202/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa9cb766381d9a740919278c5242f5
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1632b9e74bb4f565cc16e46eb797d692, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1632b9e74bb4f565cc16e46eb797d692
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -130,8 +129,7 @@ at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
@@ -173,37 +171,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailureTestFromExcel -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:53Z" name="TearDown" finished-at="2025-06-22T10:40:53Z" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:15Z" name="TearDown" finished-at="2025-07-04T19:39:16Z" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:53Z" name="SetUp" finished-at="2025-06-22T10:40:54Z" duration-ms="1409" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:16Z" name="SetUp" finished-at="2025-07-04T19:39:17Z" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginFailureTestFromProperties()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:40:54Z" name="LoginFailureTestFromProperties" finished-at="2025-06-22T10:41:00Z" duration-ms="5336" status="FAIL">
+        <test-method signature="LoginFailureTestFromProperties()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:17Z" name="LoginFailureTestFromProperties" finished-at="2025-07-04T19:39:23Z" duration-ms="5522" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32a5b8b7021e3fc5a08c1a6174dc617a, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9236/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 32a5b8b7021e3fc5a08c1a6174dc617a]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [35c870c7c1c8311ae3654d7f2b096dd3, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35c870c7c1c8311ae3654d7f2b096dd3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32a5b8b7021e3fc5a08c1a6174dc617a, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9236/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 32a5b8b7021e3fc5a08c1a6174dc617a
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [35c870c7c1c8311ae3654d7f2b096dd3, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35c870c7c1c8311ae3654d7f2b096dd3
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -213,8 +211,7 @@ at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
@@ -256,49 +253,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailureTestFromProperties -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:00Z" name="TearDown" finished-at="2025-06-22T10:41:00Z" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:23Z" name="TearDown" finished-at="2025-07-04T19:39:24Z" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:00Z" name="SetUp" finished-at="2025-06-22T10:41:01Z" duration-ms="1363" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:24Z" name="SetUp" finished-at="2025-07-04T19:39:26Z" duration-ms="1647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginSuccessTest()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:01Z" name="LoginSuccessTest" finished-at="2025-06-22T10:41:02Z" duration-ms="271" status="PASS">
+        <test-method signature="LoginSuccessTest()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:26Z" name="LoginSuccessTest" finished-at="2025-07-04T19:39:26Z" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:02Z" name="TearDown" finished-at="2025-06-22T10:41:02Z" duration-ms="782" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:26Z" name="TearDown" finished-at="2025-07-04T19:39:27Z" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:02Z" name="SetUp" finished-at="2025-06-22T10:41:04Z" duration-ms="1381" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:27Z" name="SetUp" finished-at="2025-07-04T19:39:28Z" duration-ms="1508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginFailureTest()[pri:1, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:04Z" name="LoginFailureTest" finished-at="2025-06-22T10:41:09Z" duration-ms="5291" status="FAIL">
+        <test-method signature="LoginFailureTest()[pri:1, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:28Z" name="LoginFailureTest" finished-at="2025-07-04T19:39:34Z" duration-ms="5408" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bde906d218bc462117e5a99c5edfd13f, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9289/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bde906d218bc462117e5a99c5edfd13f]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fa49aa0b7dc663d3a82b1357af00098a, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa49aa0b7dc663d3a82b1357af00098a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@data-test='error']"}
-  (Session info: chrome=137.0.7151.120)
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bde906d218bc462117e5a99c5edfd13f, findElement {using=xpath, value=//h3[@data-test='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9289/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bde906d218bc462117e5a99c5edfd13f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fa49aa0b7dc663d3a82b1357af00098a, findElement {using=xpath, value=//h3[@data-test='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\kamal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.210.159.115:4444/se..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa49aa0b7dc663d3a82b1357af00098a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -308,8 +305,7 @@ at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
@@ -351,11 +347,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:09Z" name="TearDown" finished-at="2025-06-22T10:41:09Z" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:34Z" name="TearDown" finished-at="2025-07-04T19:39:34Z" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:swaglab_test.LoginTest@14a2f921]" started-at="2025-06-22T10:41:09Z" name="CloseExcel" finished-at="2025-06-22T10:41:09Z" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:swaglab_test.LoginTest@2aece37d]" started-at="2025-07-04T19:39:34Z" name="CloseExcel" finished-at="2025-07-04T19:39:35Z" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseExcel -->
